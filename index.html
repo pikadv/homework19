@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous" />
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+		<title>MyPortfolio</title>
+	</head>
+	<body>
+		<div class="wrap">
+			<header class="row gap-3 p-3 gap-lg-0 align-items-center">
+				<section
+					class="d-flex col-lg-3 gap-2 justify-content-center align-items-center">
+					<span class="logo">P</span>
+					<h1 class="title">MyPortfolio</h1>
+				</section>
+				<section class="col-lg-6">
+					<nav>
+						<ul
+							class="d-flex gap-3 list-unstyled justify-content-center align-items-center">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#feedback">Feedback</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section
+					class="col-lg-3 d-flex gap-2 justify-content-center align-items-center date-box">
+					<i class="m-0 fs-1 text-blue fa-regular fa-calendar-days"></i>
+					<div>
+						<p class="m-0 fw-bold">Live Date & Time:</p>
+						<p
+							class="m-0 text-blue fw-bold"
+							id="date-time">
+							Sat, 22 Aug 2026 10:24:37 PM
+						</p>
+					</div>
+				</section>
+			</header>
+			<main>
+				<section
+					id="home"
+					class="p-4 p-md-5 text-light rounded-bottom-5 hero">
+					<h2>Welcome to<br /><span>My Portfolio</span></h2>
+					<p>Web Developer | Digital Marketer | Problem Solver</p>
+					<div class="d-flex flex-wrap gap-3">
+						<a
+							class="btn btn-primary"
+							href="#about"
+							>Learn More</a
+						><a
+							class="btn btn-outline-light"
+							href="#contact"
+							>Contact Me</a
+						>
+					</div>
+				</section>
+				<section
+					id="about"
+					class="d-flex gap-4 p-3 align-items-center border border-dark-subtle rounded-4 about-box">
+					<img
+						src="img/dp.jpg"
+						alt="Nazmul Husain working at a laptop"
+						class="rounded-4 img-fluid" />
+					<div>
+						<div class="d-flex gap-2 align-items-center">
+							<i class="text-blue fs-2 fa-solid fa-user"></i>
+							<h3>About Me</h3>
+						</div>
+						<p>
+							Hi, I'm Nazmul Husain. I'm a Professional Web Developer & Digital
+							Marketer with a passion for creating modern, responsive and
+							user-friendly websites. I love turning ideas into reality through
+							clean code and smart marketing strategies.
+						</p>
+						<div
+							class="d-flex flex-lg-row flex-column gap-3 justify-content-lg-between">
+							<div class="d-flex flex-column flex-lg-row gap-2 gap-lg-4">
+								<div class="d-flex gap-2 align-items-center">
+									<i class="text-blue fa-brands fa-webflow"></i>
+									<h4>Web Development</h4>
+								</div>
+								<div class="d-flex gap-2 align-items-center">
+									<i class="text-blue fa-solid fa-bullhorn"></i>
+									<h4>Digital Marketing</h4>
+								</div>
+								<div class="d-flex gap-2 align-items-center">
+									<i class="text-blue fa-solid fa-code"></i>
+									<h4>Clean Code</h4>
+								</div>
+							</div>
+							<a
+								class="btn btn-primary align-self-start"
+								href="#services"
+								>Read More</a
+							>
+						</div>
+					</div>
+				</section>
+				<section
+					class="d-sm-flex p-3 gap-4 bg-primary-subtle rounded vision-box">
+					<div class="d-flex flex-fill gap-3">
+						<i class="fs-5 fa-solid fa-bullseye"></i>
+						<div>
+							<h5>Our Mission</h5>
+							<p>
+								To deliver high-quality digital solutions that help businesses
+								grow and succeed online.
+							</p>
+						</div>
+					</div>
+					<div class="d-sm-block d-none h-line"></div>
+					<div class="d-flex flex-fill gap-3">
+						<i class="fs-5 fa-solid fa-eye"></i>
+						<div>
+							<h5>Our Vision</h5>
+							<p>To become a trusted digital partner for clients worldwide.</p>
+						</div>
+					</div>
+				</section>
+				<span id="portfolio"></span>
+				<section
+					id="services"
+					class="content-section">
+					<h3 class="section-title">Our Services</h3>
+					<div class="row g-3 justify-content-center">
+						<div class="col-12 col-sm-6 col-lg-3">
+							<article class="service-card">
+								<i class="fa-solid fa-display"></i>
+								<h4>Web Development</h4>
+								<p>Modern & responsive<br />website development</p>
+								<a href="#contact">Learn More</a>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<article class="service-card">
+								<i class="fa-solid fa-bullhorn"></i>
+								<h4>Digital Marketing</h4>
+								<p>Grow your business<br />with smart marketing</p>
+								<a href="#contact">Learn More</a>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<article class="service-card">
+								<i class="fa-solid fa-cart-shopping"></i>
+								<h4>E-Commerce</h4>
+								<p>Build online store with<br />secure payment</p>
+								<a href="#contact">Learn More</a>
+							</article>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<article class="service-card">
+								<i class="fa-solid fa-gear"></i>
+								<h4>Website Maintenance</h4>
+								<p>Keep your site<br />safe & up to date</p>
+								<a href="#contact">Learn More</a>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section
+					id="feedback"
+					class="content-section feedback-section">
+					<h3 class="section-title">★ Client Feedback</h3>
+					<div class="row g-3 justify-content-center">
+						<div class="col-12 col-md-4">
+							<article class="feedback-card">
+								<img
+									src="img/dp.jpg"
+									alt="Client portrait" />
+								<div>
+									<div class="stars">★★★★★</div>
+									<p>
+										“Excellent service! My website is now faster and more
+										professional.”
+									</p>
+									<small>Rohan Ahmed</small>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-4">
+							<article class="feedback-card">
+								<img
+									src="img/dp.jpg"
+									alt="Client portrait" />
+								<div>
+									<div class="stars">★★★★★</div>
+									<p>“Very responsive and skilled. Highly recommended!”</p>
+									<small>Nasrat Jahan</small>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-4">
+							<article class="feedback-card">
+								<img
+									src="img/dp.jpg"
+									alt="Client portrait" />
+								<div>
+									<div class="stars">★★★★★</div>
+									<p>“Great experience. Delivered my project on time.”</p>
+									<small>Hasan Mahmud</small>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer id="contact">
+				<span>© 2026 Nazmul Husain. All Rights Reserved.</span
+				><span class="socials"
+					><i class="fa-brands fa-facebook-f"></i
+					><i class="fa-brands fa-twitter"></i
+					><i class="fa-brands fa-linkedin-in"></i
+					><i class="fa-brands fa-youtube"></i
+				></span>
+			</footer>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/9d2bcfad30.js"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

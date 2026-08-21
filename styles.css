@@ -224,6 +224,10 @@ nav ul {
 	letter-spacing: 1px;
 	font-size: 1rem;
 }
+.review {
+	border-left: #1254e3 solid 2px;
+	padding-left: 0.5em;
+}
 footer {
 	display: flex;
 	justify-content: space-between;
